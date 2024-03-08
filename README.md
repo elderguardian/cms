@@ -1,6 +1,7 @@
 ### Configs made Simple
 I hate java configuration files and its a reoccuring issue in my school projects.
-This lets you store java serializables in a file.
+This lets you store java serializables in a file. You can set the contents of your
+file in a custom enum and specify a default value if it is not present on read.
 
 #### How to make your life easier
 1. Copy the `src/configMadeSimple` component into your application
