@@ -1,4 +1,4 @@
-### Configs made Simple
+### Configs Made Simple
 I hate java configuration files and its a reoccuring issue in my school projects.
 This lets you store any java serializables in a file. You can set the contents of your
 file in a custom enum and specify a default value if the key you want is not present.
