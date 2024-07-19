@@ -15,7 +15,7 @@ file in a custom enum and specify a default value if the key you want is not pre
         var config = configManger.create("/my/file/path.ext");
 
         var oldObj = config.getObject(MyConfigKeys.MY_KEY); // Getting stuff (Might return default value)
-        config.setObject(MyConfigKeys.MY_KEY, 15); // Getting stuff
+        config.setObject(MyConfigKeys.MY_KEY, 15); // Setting stuff
         configManger.save(config, "/my/file/path.ext");
     }
 ```
